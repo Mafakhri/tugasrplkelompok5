@@ -88,7 +88,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/umbulponggok.jpg"
+                src="/public/umbulponggok.jpg"
                 alt="Umbul Ponggok"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -110,7 +110,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/rivermoon.webp"
+                src="/public/rivermoon.png"
                 alt="Rivermoon"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -290,7 +290,7 @@ const Home = () => {
             className="flex flex-col items-center p-4 rounded-1xl"
           >
             <div className="grid grid-cols-1 gap-1 p-9">
-              <img src="img/rekomendasi.png" alt="hell nah" />
+              <img src="img/rekomendasi.png" alt="rekomendasi" />
             </div>
           </div>
         </div>
