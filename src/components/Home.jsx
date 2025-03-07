@@ -135,7 +135,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/rowojombor.jpg"
+                src="public/rowojombor.jpg"
                 alt="Rowo Jombor"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -160,7 +160,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/candi.webp"
+                src="public/candi.png"
                 alt="Candi Plaosan"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -290,7 +290,7 @@ const Home = () => {
             className="flex flex-col items-center p-4 rounded-1xl"
           >
             <div className="grid grid-cols-1 gap-1 p-9">
-              <img src="img/rekomendasi.png" alt="rekomendasi" />
+              <img src="public/rekomendasi.png" alt="rekomendasi" />
             </div>
           </div>
         </div>
@@ -322,7 +322,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/umbulpelem.jpg"
+                src="public/umbulpelem.jpg"
                 alt="Umbul Pelem"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -348,7 +348,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/lampion.jpg"
+                src="public/lampion.jpg"
                 alt="Lampion"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -374,7 +374,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/deles.jpg"
+                src="public/deles.jpg"
                 alt="Deles Indah"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -395,7 +395,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="img/sidoguro.jpg"
+                src="public/sidoguro.jpg"
                 alt="Sidoguro"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -415,7 +415,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="ig2.svg" alt="Instagram" />
+              <img src="public/ig2.svg" alt="Instagram" />
               <h1 className="mt-3">INSTAGRAM</h1>
               <a href="https://www.instagram.com/">@instagram</a>
             </div>
@@ -425,7 +425,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="fb.svg" alt="Facebook" />
+              <img src="public/fb.svg" alt="Facebook" />
               <h1 className="mt-3">Facebook</h1>
               <a href="https://www.facebook.com/?locale=id_ID">@facebokk</a>
             </div>
@@ -435,7 +435,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="tiktok.svg" alt="TikTok" />
+              <img src="public/tiktok.svg" alt="TikTok" />
               <h1 className="mt-3">Tiktok</h1>
               <a href="https://www.tiktok.com/?kuid=31b6d78a-c086-437f-9ab0-df56eaf7fd8b&kref=vGWRdzLJnjYf">
                 @tiktok
