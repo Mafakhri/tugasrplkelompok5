@@ -1,73 +1,27 @@
 import React from "react";
 import Ai from "./Ai";
+import Navbar from "./Navbar";
+import Judul from "./Judul";
+import umbulpongok from "../assets/img/umbulponggok.jpg"
+import rowojombo from "../assets/img/rowojombor.jpg"
+import rivermoon from "../assets/img/rivermoon.png"
+import candi from "../assets/img/candi.png"
+import rekomendasi from "../assets/img/rekomendasi.png"
+import umbulpelem from "../assets/img/umbulpelem.jpg"
+import deles from "../assets/img/deles.jpg"
+import lampion from "../assets/img/lampion.jpg"
+import sidoguro from "../assets/img/sidoguro.jpg"
+import ig from "../assets/img/ig2.svg"
+import fb from "../assets/img/fb.svg"
+import tt from "../assets/img/tiktok.svg"
 
 const Home = () => {
   return (
     <>
       <Ai />
+      <Navbar />
       <div className="bg" id="beranda">
-        <nav className="bg-gray-900 fixed tinggi text-white font-medium w-full p-4">
-          <div className="container justify-between flex m-auto">
-            <h1 className="text-2xl">🌊Kelompok 5</h1>
-            <div className="flex font-normal gap-5 items-center">
-              <a
-                className="opacity-[0.6] hover:opacity-[1] p-2"
-                href="#beranda"
-              >
-                Beranda 🏠︎
-              </a>
-              <a
-                className="opacity-[0.6] hover:opacity-[1] p-2"
-                href="#tentang"
-              >
-                Tentang ⓘ
-              </a>
-              <a className="opacity-[0.6] hover:opacity-[1] p-2" href="#sosmed">
-                Sosmed Kami 🌐
-              </a>
-              <a className="opacity-[0.6] hover:opacity-[1] p-2" href="#kontak">
-                Kontak ✉︎
-              </a>
-            </div>
-          </div>
-        </nav>
-        <div className="pt-[35vh] container m-auto text-white text-center flex flex-col items-center">
-          <h1
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            className="text-7xl font-semibold"
-          >
-            Petualangan Tak <span className="text-blue-400">Terlupakan</span> Di
-            mulai
-            <span className="text-blue-600">Disini!</span>
-          </h1>
-          <p
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="100"
-            className="mt-6 text-2xl text-gray-400"
-          >
-            Klaten sebuah surga tersembunyi di Jawa Tengah, menyimpan beragam
-            destinasi wisata yang menakjubkan, mulai dari keindahan alam yang
-            memukau, sejarah yang kaya, hingga kuliner khas yang menggugah
-            selera. Di sini, kami menghadirkan rekomendasi tempat wisata terbaik
-            di Klaten untuk Anda.
-          </p>
-          <div
-            data-aos="fade-up"
-            data-aos-duration="1000"
-            data-aos-delay="200"
-            className="flex mt-10 bg-white text-black items-center p-2 font-medium text-xl gap-5 rounded-xl"
-          >
-            <h4 className="p-4">Read More -&gt;</h4>
-            <a
-              href="#tentang"
-              className="bg-blue-500 p-4 text-white rounded-xl"
-            >
-              Tentang Website
-            </a>
-          </div>
-        </div>
+        <Judul />
       </div>
       <div className="container mt-[-15vh] mx-auto">
         <div className="grid grid-cols-4 gap-4 p-4">
@@ -88,7 +42,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="/public/umbulponggok.jpg"
+                src={umbulpongok}
                 alt="Umbul Ponggok"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -110,7 +64,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="/public/rivermoon.png"
+                src={rivermoon}
                 alt="Rivermoon"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -135,7 +89,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/rowojombor.jpg"
+                src={rowojombo}
                 alt="Rowo Jombor"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -160,7 +114,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/candi.png"
+                src={candi}
                 alt="Candi Plaosan"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -290,7 +244,7 @@ const Home = () => {
             className="flex flex-col items-center p-4 rounded-1xl"
           >
             <div className="grid grid-cols-1 gap-1 p-9">
-              <img src="public/rekomendasi.png" alt="rekomendasi" />
+              <img src={rekomendasi} alt="rekomendasi" />
             </div>
           </div>
         </div>
@@ -322,7 +276,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/umbulpelem.jpg"
+                src={umbulpelem}
                 alt="Umbul Pelem"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -348,7 +302,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/lampion.jpg"
+                src={lampion}
                 alt="Lampion"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -374,7 +328,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/deles.jpg"
+                src={deles}
                 alt="Deles Indah"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -395,7 +349,7 @@ const Home = () => {
             >
               <img
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
-                src="public/sidoguro.jpg"
+                src={sidoguro}
                 alt="Sidoguro"
               />
               <figcaption className="mt-5 text-black-600 text-lg font-bold">
@@ -415,7 +369,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="public/ig2.svg" alt="Instagram" />
+              <img src={ig} alt="Instagram" />
               <h1 className="mt-3">INSTAGRAM</h1>
               <a href="https://www.instagram.com/">@instagram</a>
             </div>
@@ -425,7 +379,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="public/fb.svg" alt="Facebook" />
+              <img src={fb} alt="Facebook" />
               <h1 className="mt-3">Facebook</h1>
               <a href="https://www.facebook.com/?locale=id_ID">@facebokk</a>
             </div>
@@ -435,7 +389,7 @@ const Home = () => {
               data-aos-delay="1000"
               className="flex flex-col items-center border border-black p-10 rounded-2xl"
             >
-              <img src="public/tiktok.svg" alt="TikTok" />
+              <img src={tt} alt="TikTok" />
               <h1 className="mt-3">Tiktok</h1>
               <a href="https://www.tiktok.com/?kuid=31b6d78a-c086-437f-9ab0-df56eaf7fd8b&kref=vGWRdzLJnjYf">
                 @tiktok
