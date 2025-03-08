@@ -2,18 +2,18 @@ import React from "react";
 import Ai from "./Ai";
 import Navbar from "./Navbar";
 import Judul from "./Judul";
-import umbulpongok from "../assets/img/umbulponggok.jpg"
-import rowojombo from "../assets/img/rowojombor.jpg"
-import rivermoon from "../assets/img/rivermoon.png"
-import candi from "../assets/img/candi.png"
-import rekomendasi from "../assets/img/rekomendasi.png"
-import umbulpelem from "../assets/img/umbulpelem.jpg"
-import deles from "../assets/img/deles.jpg"
-import lampion from "../assets/img/lampion.jpg"
-import sidoguro from "../assets/img/sidoguro.jpg"
-import ig from "../assets/img/ig2.svg"
-import fb from "../assets/img/fb.svg"
-import tt from "../assets/img/tiktok.svg"
+import umbulpongok from "../assets/img/umbulponggok.jpg";
+import rowojombo from "../assets/img/rowojombor.jpg";
+import rivermoon from "../assets/img/rivermoon.png";
+import candi from "../assets/img/candi.png";
+import rekomendasi from "../assets/img/rekomendasi.png";
+import umbulpelem from "../assets/img/umbulpelem.jpg";
+import deles from "../assets/img/deles.jpg";
+import lampion from "../assets/img/lampion.jpg";
+import sidoguro from "../assets/img/sidoguro.jpg";
+import ig from "../assets/img/ig2.svg";
+import fb from "../assets/img/fb.svg";
+import tt from "../assets/img/tiktok.svg";
 
 const Home = () => {
   return (
