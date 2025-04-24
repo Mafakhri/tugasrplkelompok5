@@ -4,17 +4,17 @@ export default function Judul() {
       <h1
         data-aos="fade-up"
         data-aos-duration="1000"
-        className="text-7xl font-semibold"
+        className="text-6xl font-semibold"
       >
         Petualangan Tak <span className="text-blue-400">Terlupakan</span> Di
         mulai
-        <span className="text-blue-600">Disini!</span>
+        <span className="text-blue-400">Disini!</span>
       </h1>
       <p
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="100"
-        className="mt-6 text-2xl text-gray-400"
+        className="mt-6 text-2xl text-white-400"
       >
         Klaten sebuah surga tersembunyi di Jawa Tengah, menyimpan beragam
         destinasi wisata yang menakjubkan, mulai dari keindahan alam yang

@@ -450,7 +450,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-900 text-center text-white text-xl p-10">
+      <footer className="bg-gray-400 text-center text-black text-xl p-10">
         <p>
           © 2025 Kelompok 5 | Tempat Wisata di Klaten
           <br />

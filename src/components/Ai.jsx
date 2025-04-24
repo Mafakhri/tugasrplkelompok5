@@ -79,7 +79,7 @@ const ChatAI = () => {
         {
           role: "assistant",
           content:
-            "Aduh, error nih! Koneksi internet lagi error nih kayaknya hehehehe😅",
+            "Aduh, error nih! Koneksi internet lagi error nih kayaknya xixixixixi😅",
         },
       ]);
     } finally {
@@ -97,7 +97,7 @@ const ChatAI = () => {
     setMessages([
       {
         role: "assistant",
-        content: "Reset chat! Udah siap nih gua, mau nanya apa lu? 🔥",
+        content: "Reset chat! Udah siap nih gua!, mau nanya apa lu? 🔥",
       },
     ]);
   };
@@ -131,7 +131,7 @@ const ChatAI = () => {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           >
             <div className="bg-black text-white p-4 rounded-t-xl flex justify-between items-center">
-              <h3 className="font-bold flex items-center">Fakhri AI 💻</h3>
+              <h3 className="font-bold flex items-center">AI Rodok Rodok 💻</h3>
               <div className="flex items-center gap-2">
                 <motion.button
                   onClick={clearConversation}
